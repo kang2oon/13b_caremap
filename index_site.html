@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<meta name="author" content="kang2oon">
+	<title>CareMap DeadLink Checker</title>
+	<style>
+		table{width: 100%;border-collapse: collapse;font-size: 13px;}
+		th{background: #666;padding:8px;text-align: center;color:#fff;border:1px solid #333;}
+		tr:nth-child(even){background: #f5f5f5;}
+		td{border:1px solid #333;padding:8px;}
+		td:nth-child(1), td:nth-child(3){text-align: center;}
+		a{text-decoration: none;color: inherit;}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<button class="btn btn-success">Export</button></div>
+		<table id="table2excel">
+			<thead>
+			<tr>
+				<th>NO</th>
+				<th>기관명</th>
+				<th>연락처</th>
+				<th>사이트</th>
+				<!--th>신청하기</th-->
+			</tr>	
+			</thead>
+			<tbody id="list">
+
+			</tbody>
+		</table>
+	</div>
+
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$.ajax({
+				type: "GET",
+				dataType: "json",
+				url: "care_map.json",
+				success: function(obj){
+					var arrData = obj.items;
+					org_list(arrData);
+				}
+			});
+				
+			function org_list(arrData){
+				var cnt = arrData.length;
+				var content = "";
+				for(var i=0; i<cnt; i++){
+					content += "<tr><td>"+[i+1]+"</td>"
+					content += "<td>"+arrData[i].name+"</td>"
+					content += "<td>"+arrData[i].tel+"</td>"
+					//content += "<td><a href=\""+arrData[i].site+"\" target=\"_blank\">"+arrData[i].site+"</a></td>"
+					content += "<td><a href=\""+arrData[i].applyurl+"\" target=\"_blank\">"+arrData[i].applyurl+"</a></td>"
+					content += "</tr>"
+				}
+				$("#list").append(content);
+			}
+
+			$("button").click(function(){
+				$("#table2excel").table2excel({
+					exclude: ".excludeThisClass",
+					name: "Worksheet Name",
+					filename: "SomeFile.xls", // do include extension
+					preserveColors: false // set to true if you want background colors and font colors preserved
+				});
+			});
+		});
+	</script>
+</body>
+</html>
