@@ -23,7 +23,7 @@
 			<tr>
 				<th>NO</th>
 				<th>기관명</th>
-				<th>연락처</th>
+				<!--th>연락처</th-->
 				<th>사이트</th>
 				<!--th>신청하기</th-->
 			</tr>	
@@ -54,9 +54,9 @@
 				for(var i=0; i<cnt; i++){
 					content += "<tr><td>"+[i+1]+"</td>"
 					content += "<td>"+arrData[i].name+"</td>"
-					content += "<td>"+arrData[i].tel+"</td>"
-					//content += "<td><a href=\""+arrData[i].site+"\" target=\"_blank\">"+arrData[i].site+"</a></td>"
-					content += "<td><a href=\""+arrData[i].applyurl+"\" target=\"_blank\">"+arrData[i].applyurl+"</a></td>"
+					//content += "<td>"+arrData[i].tel+"</td>"
+					content += "<td><a href=\""+arrData[i].site+"\" target=\"_blank\">"+arrData[i].site+"</a></td>"
+					//content += "<td><a href=\""+arrData[i].applyurl+"\" target=\"_blank\">"+arrData[i].applyurl+"</a></td>"
 					content += "</tr>"
 				}
 				$("#list").append(content);

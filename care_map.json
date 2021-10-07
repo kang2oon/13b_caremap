@@ -25,13 +25,13 @@
     ,{"name":"고양시 예안지역아동센터","tel":"031-964-1988","applyurl":"https://www.gov.kr/portal/onestopSvc"}
     ,{"name":"고양시 푸른학교반디교실지역아동센터","tel":"031-818-1236","site":"http://cafe.daum.net/bandischool","applyurl":"https://www.gov.kr/portal/onestopSvc"}
     ,{"name":"고양시 한빛지역아동센터","tel":"031-970-5025","applyurl":"https://www.gov.kr/portal/onestopSvc"}
-    ,{"name":"고양시여성회관 아이러브맘카페","tel":"031-972-8003","site":"www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_04_02"}
-    ,{"name":"행신어린이도서관 아이러브맘카페","tel":"031-973-8003","site":"www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_05_02"}
-    ,{"name":"고양동경로회관 아이러브맘카페","tel":"031-969-1003","site":"www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_06_02"}
-    ,{"name":"어울림뜨레 아이러브맘카페","tel":"031-965-9003","site":"www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_07_02"}
-    ,{"name":"관산동주민센터","tel":"031-962-3316","site":"www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_11_02"}
-    ,{"name":"육아종합지원센터","tel":"031-975-3314","site":" www.echild.or.kr/","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_10_02"}
-    ,{"name":"고양시육아종합지원센터","tel":"031-975-3314","site":"www.echild.or.kr"}
+    ,{"name":"고양시여성회관 아이러브맘카페","tel":"031-972-8003","site":"https://www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_04_02"}
+    ,{"name":"행신어린이도서관 아이러브맘카페","tel":"031-973-8003","site":"https://www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_05_02"}
+    ,{"name":"고양동경로회관 아이러브맘카페","tel":"031-969-1003","site":"https://www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_06_02"}
+    ,{"name":"어울림뜨레 아이러브맘카페","tel":"031-965-9003","site":"https://www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_07_02"}
+    ,{"name":"관산동주민센터","tel":"031-962-3316","site":"https://www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_11_02"}
+    ,{"name":"육아종합지원센터","tel":"031-975-3314","site":"https://www.echild.or.kr/","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_10_02"}
+    ,{"name":"고양시육아종합지원센터","tel":"031-975-3314","site":"https://www.echild.or.kr"}
     ,{"name":"고양시 중산 다함께돌봄센터","tel":"070-5220-2620","applyurl":"https://www.gov.kr/portal/onestopSvc"}
     ,{"name":"고양시 동녘지역아동센터","tel":"031-903-2760","applyurl":"https://www.gov.kr/portal/onestopSvc"}
     ,{"name":"고양시 둥지지역아동센터","tel":"031-968-8066","site":"https://doongji.or.kr/","applyurl":"https://www.gov.kr/portal/onestopSvc"}
@@ -44,7 +44,7 @@
     ,{"name":"고양시 주향지역아동센터","tel":"031-902-9183","applyurl":"https://www.gov.kr/portal/onestopSvc"}
     ,{"name":"고양시 푸른우리지역아동센터","tel":"031-905-3400","site":"http://heendol.or.kr/bbs/board.php?bo_table=0501_1","applyurl":"https://www.gov.kr/portal/onestopSvc"}
     ,{"name":"고양시 한사랑푸른지역아동센터","tel":"031-962-8062   ","applyurl":"https://www.gov.kr/portal/onestopSvc"}
-    ,{"name":"풍동 아이러브맘카페","tel":"031-902-8003","site":"www.echild.or.kr"}
+    ,{"name":"풍동 아이러브맘카페","tel":"031-902-8003","site":"https://www.echild.or.kr"}
     ,{"name":"마을문화공간 사다리","tel":"010-6533-9907"}
     ,{"name":"일산서구청소년수련관","tel":"031-810-4041","site":"https://www.gcyf.or.kr/sg/","applyurl":"https://www.gov.kr/portal/onestopSvc"}
     ,{"name":"고양시 강선지역아동센터","tel":"031-914-5130","applyurl":"https://www.gov.kr/portal/onestopSvc"}
@@ -56,8 +56,8 @@
     ,{"name":"고양시 하늘그림지역아동센터","tel":"031-976-0387","site":"https://happylog.naver.com/hlog/sky/home","applyurl":"https://www.gov.kr/portal/onestopSvc"}
     ,{"name":"고양시 한울타리지역아동센터","tel":"070-7012-6645","applyurl":"https://www.gov.kr/portal/onestopSvc"}
     ,{"name":"고양시 행복한지역아동센터","tel":"070-8239-1377","applyurl":"https://www.gov.kr/portal/onestopSvc"}
-    ,{"name":"탄현위브더제니스 아이러브맘카페","tel":"031-913-6003","site":"www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_02_02"}
-    ,{"name":"고양문화의집 아이러브맘카페","tel":"031-923-8003","site":"www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_03_02"}
+    ,{"name":"탄현위브더제니스 아이러브맘카페","tel":"031-913-6003","site":"https://www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_02_02"}
+    ,{"name":"고양문화의집 아이러브맘카페","tel":"031-923-8003","site":"https://www.echild.or.kr","applyurl":"https://echild.or.kr/bbs/board.php?bo_table=g05_03_02"}
     ,{"name":"키움 아이코칭 연구소","tel":"010-4749-6512","applyurl":"https://link.inpock.co.kr/hsk"}
     ,{"name":"중앙동 다함께돌봄센터(마을돌봄나눔터)","tel":"02-502-6386","site":"-","applyurl":"https://www.gov.kr/portal/onestopSvc"}
     ,{"name":"마을돌봄나눔터 (래미안슈르)","tel":"02-504-0094","site":"https://gchfsc.familynet.or.kr/center/"}
